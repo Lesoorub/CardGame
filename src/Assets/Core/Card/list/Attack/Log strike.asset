@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3cfa3d5c70a9194d878486813a1fb07, type: 3}
+  m_Name: Log strike
+  m_EditorClassIdentifier: 
+  LocalizeName: Log strike
+  Target: 4
+  BaseEnergyCost: 2
+  ImageSprite: {fileID: 21300000, guid: abc096ca7eaa0cd4cb2d39eb3a3b2813, type: 3}
+  ImageColor: {r: 0.46226418, g: 0.22299945, b: 0.14609292, a: 1}
+  LocalizeDescription: Deal {Damage} to the enemy
+  AttackType: 0
+  Damage: 8

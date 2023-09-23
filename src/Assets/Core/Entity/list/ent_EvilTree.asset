@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81acbb67550ae4d489f7ef5268fc5e22, type: 3}
+  m_Name: ent_EvilTree
+  m_EditorClassIdentifier: 
+  preview: {fileID: 11400000, guid: 7c74da309d2ba054abf4cd1e024e7238, type: 2}
+  MaximumHealth: 50
+  BaseMaxEnergy: 2
+  Equipments:
+    LeftHand:
+      allowedTypes: 03000000
+      item:
+        Data: {fileID: 0}
+        Count: 0
+    RightHand:
+      allowedTypes: 04000000
+      item:
+        Data: {fileID: 0}
+        Count: 0
+    Helmet:
+      allowedTypes: 05000000
+      item:
+        Data: {fileID: 0}
+        Count: 0
+    Chestplate:
+      allowedTypes: 06000000
+      item:
+        Data: {fileID: 0}
+        Count: 0
+    Boots:
+      allowedTypes: 07000000
+      item:
+        Data: {fileID: 0}
+        Count: 0
+  CountOfCardsTakenOnStep: 2
+  PermamentCards:
+  - {fileID: 11400000, guid: 08eb9b7b35a0b014e817057b344db3f3, type: 2}
+  - {fileID: 11400000, guid: 874a76a213784474982e09232ea3b974, type: 2}
